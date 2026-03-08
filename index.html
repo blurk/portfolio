@@ -6,6 +6,12 @@
     <title>Portfolio</title>
   </head>
   <style>
+    *,
+    *::after,
+    *::before {
+      font-family: cursive;
+    }
+
     main {
       margin-inline: auto;
       max-width: 640px;
@@ -14,12 +20,17 @@
     .text-italic {
       font-style: italic;
     }
+
+    section.section-intro {
+      columns: 2;
+    }
   </style>
   <body>
     <main>
-      <section>
+      <section class="section-intro">
         <h1>Portfolio</h1>
         <p>Hello, I'm Sinh and this is my portfolio.</p>
+        <img src="me.png" alt="me" draggable />
       </section>
 
       <section>
@@ -30,12 +41,47 @@
       <section>
         <h3>My working experience</h3>
         <ul>
-            <li><span class="text-italic">Aug 2025 - Now:</span> Self employ and freelancing</li>
-            <li><span class="text-italic">Nov 2023 - Aug 2025:</span> Sr web ui developer/React Developer @ Globant(Pentalog Viet Nam)</li>
-            <li><span class="text-italic">Dec 2020 - Dec 2021:</span> Web Development Intern @ Eastgate Software</li>
-            <li><span class="text-italic">Nov 2023 - Feb 2025:</span> React Developer @ Pentalog</li>
-            <li><span class="text-italic">Jul 2020 - Oct 2020:</span> Web Development Intern @ Web88.vn</li>
-            <li><span class="text-italic">Dec 2019 - Feb 2020:</span> Web Development Intern @ DEHA VIETNAM JSC</li>
+          <li>
+            <span class="text-italic">Aug 2025 - Now:</span> Self employ and
+            freelancing
+          </li>
+          <li>
+            <span class="text-italic">Nov 2023 - Aug 2025:</span> Sr web ui
+            developer/React Developer @ Globant(Pentalog Viet Nam)
+          </li>
+          <li>
+            <span class="text-italic">Dec 2020 - Dec 2021:</span> Web
+            Development Intern @ Eastgate Software
+          </li>
+          <li>
+            <span class="text-italic">Nov 2023 - Feb 2025:</span> React
+            Developer @ Pentalog
+          </li>
+          <li>
+            <span class="text-italic">Jul 2020 - Oct 2020:</span> Web
+            Development Intern @ Web88.vn
+          </li>
+          <li>
+            <span class="text-italic">Dec 2019 - Feb 2020:</span> Web
+            Development Intern @ DEHA VIETNAM JSC
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Contact me</h3>
+        <ul>
+          <li>
+            <a href="mailto:nsinh6745@gmail.com">My Gmail</a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/sinh-nguyen-a092a71a5/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >My Linkedln</a
+            >
+          </li>
         </ul>
       </section>
     </main>
