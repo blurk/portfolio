@@ -14,31 +14,34 @@
 
     main {
       margin-inline: auto;
-      max-width: 640px;
+      max-width: max-content;
     }
 
     .text-italic {
       font-style: italic;
     }
 
-    section.section-intro {
+    section#intro {
       columns: 2;
     }
   </style>
   <body>
     <main>
-      <section class="section-intro">
+      <section id="intro">
         <h1>Portfolio</h1>
         <p>Hello, I'm Sinh and this is my portfolio.</p>
         <img src="me.png" alt="me" draggable />
       </section>
 
-      <section>
+      <section id="about">
         <h2>About me</h2>
-        <p>I'm comfortable with doing Web UI things :)</p>
+        <p>
+          I'm comfortable with doing Web UI things and somehow I love fixing CSS
+          :).
+        </p>
       </section>
 
-      <section>
+      <section id="experience">
         <h3>My working experience</h3>
         <ul>
           <li>
@@ -47,7 +50,7 @@
           </li>
           <li>
             <span class="text-italic">Nov 2023 - Aug 2025:</span> Sr web ui
-            developer/React Developer @ Globant(Pentalog Viet Nam)
+            developer @ Globant (Pentalog Viet Nam)
           </li>
           <li>
             <span class="text-italic">Feb 2022 - Sep 2023:</span> Web Javascript
@@ -72,6 +75,19 @@
         </ul>
       </section>
 
+      <section id="works">
+        <h3>
+          Most of my works aren't allowed to show, these are some I can public:
+        </h3>
+        <ul>
+          <li>
+            <a href="https://icts.io/" target="_blank" rel="noopener noreferrer"
+              >ICTS website</a
+            >
+          </li>
+        </ul>
+      </section>
+
       <section>
         <h3>Contact me</h3>
         <ul>
@@ -87,6 +103,43 @@
             >
           </li>
         </ul>
+      </section>
+
+      <section id="showcase">
+        <p>
+          Sometimes I post my play works, prototyping, experimentings online:
+          <a
+            href="https://github.com/blurk"
+            target="_blank"
+            rel="noopener noreferrer"
+            >My github</a
+          >,
+          <a
+            href="https://codepen.io/blurk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My codepen</a
+          >,
+          <a
+            href="https://blurk.github.io/randoms/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >My play around collections</a
+          >,
+          <a
+            href="https://codesandbox.io/u/blurk"
+            target="_blank"
+            rel="noopener noreferrer"
+            >My codesandbox</a
+          >,
+          <a
+            href="https://stackblitz.com/@blurk"
+            target="_blank"
+            rel="noopener noreferrer"
+            >My stackblitz</a
+          >
+        </p>
       </section>
     </main>
   </body>
